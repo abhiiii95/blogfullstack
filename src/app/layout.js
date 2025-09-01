@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
+     {/* <Script src="//code.tidio.co/fleyarbleeyhe5pqbmq8ixtmszg9smcu.js" async></Script> */}
     
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}

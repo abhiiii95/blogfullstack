@@ -18,5 +18,5 @@ export async function POST(req) {
   const { title, content, author } = body;
 
   const blog = await Blog.create({ title, content, author });
-  return NextResponse.json(blog, { status: 201 });
+  return NextResponse.json({ blog: "add successfully" }, { status: 201 });
 }
