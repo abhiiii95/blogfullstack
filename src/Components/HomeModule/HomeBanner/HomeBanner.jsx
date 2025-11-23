@@ -13,7 +13,7 @@ const HomeBanner = () => {
         </div>
       </div>
       <div className={styles?.banner}>
-        <Image src={banner} alt="Home Banner" priority fill />
+        <Image src={banner} alt="Home Banner" fetchPriority='high' fill />
       </div>
     </section>
   )
