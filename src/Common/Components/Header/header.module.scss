@@ -1,0 +1,82 @@
+@import "../../styles/varible";
+.headerWrapper{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    .headerContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logoWrapper{
+            img{
+                width: 115px;      
+                display: block;
+                @media screen and (min-width:576px) {
+                    width: 140px;
+                }
+
+            }
+        }
+        .navBar{
+            display: none;
+            @media screen and (min-width:768px) {
+                display: block;
+            }
+            .navBarList{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                list-style-type: none;
+                .navBarListItem{
+                    a{
+                        font-size: 16px;
+                        line-height: 1.4;
+                        letter-spacing: .4px;
+                        font-weight: 400;
+                        transition: all .2s;
+                        color: $blackColor;
+                        &:hover{
+                            color: $primaryColor;
+                        }
+                    }
+                    &   .activeLink{
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+        .countryMenu{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            @media screen and (min-width:576px) {
+                gap: 20px;
+            }
+            .country{
+                border: 1px solid #eee;
+                border-radius: 5px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: transparent;
+            }
+            .mobileMenuIcon{
+                display: flex;
+                width: 40px;
+                height: 40px;
+                background: transparent;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #eee;
+                border-radius: 5px;
+                cursor: pointer;
+                @media screen and (min-width:768px){
+                    display: none;
+                }
+            }
+        }
+     
+    }
+
+}
