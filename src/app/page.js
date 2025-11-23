@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get new test by editing <code>src/app/page.js</code>.
+            Get new test test by editing <code>src/app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
