@@ -8,6 +8,7 @@
     left: 0;
     transform: translateX(-200%);
     transition: all .15s;
+    z-index: 1;
     &.showOverlay{
         transform: translateX(0%);
     }
@@ -15,6 +16,8 @@
 .mobileMenuWrapper{
     position: fixed;
     left: 0;
+    z-index: 1;
+
     top: 0;
     max-width: 320px;
     width: 100%;
