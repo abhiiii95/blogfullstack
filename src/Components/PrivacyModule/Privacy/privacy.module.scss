@@ -1,35 +1,69 @@
 @import "../../../Common/styles/varible";
-.privacyWrapper{
+
+.privacyWrapper {
     padding-top: 40px;
     padding-bottom: 40px;
-    .content{
-        *{
+
+    .content {
+        * {
             margin-bottom: 15px;
             padding: 0;
             line-height: 1.5;
             letter-spacing: .5px;
             color: $blackColor;
-           
+
 
         }
-        h2{
-            font-size: 24px;
-            line-height: 28px;
+
+        h2 {
+
+            font-size: 18px;
+            line-height: 24px;
+
+            @media screen and (min-width:768px) {
+                font-size: 20px;
+                line-height: 28px;
+
+            }
+
+            @media screen and (min-width:991px) {
+                font-size: 24px;
+            }
 
         }
-        P{
+
+        P {
+            font-size: 14px;
+
+            @media screen and (min-width:576px) {
+                font-size: 16px;
+
+            }
+
+        }
+
+        h5 {
             font-size: 16px;
+
+            @media screen and (min-width:576px) {
+                font-size: 18px;
+
+            }
         }
-        h5{
-            font-size: 20px;
-        }
-        ul{
+
+        ul {
             padding-left: 30px;
-            li{
+
+            li {
                 padding-left: 20px;
                 color: $blackLightColor;
+                font-size: 14px;
+
+                @media screen and (min-width:576px) {
+                    font-size: 16px;
+
+                }
             }
         }
     }
 }
-

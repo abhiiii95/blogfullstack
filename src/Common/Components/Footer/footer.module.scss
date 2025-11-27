@@ -2,6 +2,18 @@
     background-color: #eee;
     padding: 12px;
 
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+
     .reservedtext {
         text-align: center;
     }
