@@ -11,6 +11,7 @@ const Footer = () => {
         <ul>
           <li>
             <Link href="/privacy">
+              
               Privacy</Link> 
           </li>
           <li>
