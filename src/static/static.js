@@ -20,4 +20,4 @@ export const navLinks = [
       routeText: "Contact Us",
     },
   ];
-  export const BaseUrl = "https://www.abhimanitrip.com"
+  export const BaseUrl = "https://www.worldtourtrip.com"

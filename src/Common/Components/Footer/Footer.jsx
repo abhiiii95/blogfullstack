@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={styles?.footerWrapper}>
       <div className='container'>
         <div className={styles?.content}>
-        <p className={styles?.reservedtext}>© 2025 AbhimaniTrip. All rights reserved.</p>
+        <p className={styles?.reservedtext}>© 2025 World Tour Trip. All rights reserved.</p>
         <ul>
           <li>
             <Link href="/privacy">

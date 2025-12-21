@@ -29,7 +29,7 @@ const MobileMenu = ({ show, setShow, logo }) => {
       >
         <div className={styles?.upContent}>
           <Link href={"/"} className={styles?.logoWrapper}>
-            <Image src={logo} alt="main-logo" title="abhimani-logo" priority />
+            <Image src={logo} alt="main-logo" title="main-logo" priority />
           </Link>
           <button
             className={styles?.closeBtn}

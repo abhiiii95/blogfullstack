@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from "react";
 import styles from "./header.module.scss";
-import logo from "../../../../public/abhimani-logo.svg";
+import logo from "../../../../public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -19,7 +19,7 @@ const [show,setShow]= useState(false);
       <div className="container">
         <div className={styles?.headerContent}>
           <Link href={"/"} className={styles?.logoWrapper}>
-            <Image src={logo} alt="main-logo" title="abhimani-logo" priority />
+            <Image src={logo} alt="main-logo" title="logo" priority />
           </Link>
           <nav className={styles?.navBar}>
             <ul className={styles?.navBarList}>

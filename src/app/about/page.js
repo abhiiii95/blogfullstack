@@ -3,9 +3,9 @@ import { BaseUrl } from '@/static/static';
 import React from 'react'
 
 export const metadata = {
-  title: "AbhimaniTrip – Online Flight Booking, Hotel Booking & Holiday Packages",
+  title: "World Tour Trip – Online Flight Booking, Hotel Booking & Holiday Packages",
   description:
-    "Discover AbhimaniTrip, a premium online travel agency offering seamless flight booking, hotel reservations, and curated holiday packages. Book your trips easily, securely, and with trusted recommendations.",
+    "Discover World Tour Trip, a premium online travel agency offering seamless flight booking, hotel reservations, and curated holiday packages. Book your trips easily, securely, and with trusted recommendations.",
   keywords: [
     "Online travel agency",
     "Flight booking",
