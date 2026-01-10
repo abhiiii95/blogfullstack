@@ -1,0 +1,14 @@
+.blogWrapper{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .blogContent{
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        .blogItem{
+            width: 100%;
+            max-width: calc(100%/3 - (48px/3));
+            // max-width: calc(100%/3);
+        }
+    }
+}
